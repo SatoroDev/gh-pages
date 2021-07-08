@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/15.3.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add CAKE.png CNAME DGNZ-BNB.png SATORO-BNB.png _redirects aDGNZ-250x250.png aDGNZ-BNB.png ada-bnb.png alpaca-busd.png asset-manifest.json auto-bnb.png band-bnb.png belt-bnb.png beltBNB.png beltBTC.png beltETH.png bifi-bnb.png btc.png btcb-bnb.png btcb-bnb.svg busd-bnb.png busd.png cake-bnb.png dot-bnb.png egld-bnb.png eth-bnb.png eth.png favicon-full.png favicon.ico favicon.png hero.png index.html inj-bnb.png jDGNZ-250x250.png jDGNZ-BUSD.png link-bnb.png logo.png mDGNZ-250x250.png mDGNZ-BTC.png manifest.json pDGNZ-250x250.png pDGNZ-BNB.png pill_trinks.png precache-manifest.0728a370372ecf1a28d94c86be2ec0ee.js robots.txt sDGNZ-250x250.png sDGNZ-PANCAKE.png satoro-ts.png service-worker.js static twt-bnb.png usdt-bnb.png usdt-busd.png usdt-busd.svg usdt.png vDGNZ-250x250.png vDGNZ-LINK.png vai-busd.png wbnb.png xrp-bnb.png xvs-bnb.png
+
+PATH: 
+  /opt/local/libexec/gnubin:/usr/local/mysql/bin:/sw/bin:/sw/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/patrick/.local/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/CAKE.png: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1294:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
